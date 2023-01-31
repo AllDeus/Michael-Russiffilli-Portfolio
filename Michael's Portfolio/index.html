@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <title>Michael Russiffilli</title>
+</head>
+
+<body>
+
+  <canvas class="webgl"></canvas>
+  <nav>
+
+    <a href="/">
+      <h6>Michael Russiffilli</h6>
+      <h1> <span>Web Developer<br></span></h1>
+    </a>
+    <ul>
+
+      <a href="/">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">projects</a>
+
+
+
+    </ul>
+
+
+  </nav>
+  <div class="stars"></div>
+
+  <div class="shooting-stars"></div>
+
+
+  <h1 class="spin"> Give it a spin</h1>
+
+
+
+
+  <section class="about" id="about">
+    <div class="container flex items-centre">
+      <div class="left flex-1 justify-right">
+        <img src="assests/selfie.JPEG" id="banner" height="400px" alt="profile pic">
+      </div>
+
+      <div class="right flex-1">
+        <h1>About <span>Me</span></h1>
+        <h3>Hello! I'm Michael Russiffilli.</h3>
+        <p>I am a web Developer currently based in Manchester NH. I was born in florida and grew up in New
+          york, i am always seeking to learn and grow as a Developer, the most passionate skill i am learning being
+          three.js
+          development.
+        </p>
+        <div class="socials">
+          <a href="linkedin.com/in/alldeus"><img src="assests/linkdin.png" width="40px"></a>
+          <a href="https://github.com/AllDeus"><img src="assests/github.png" width="40px"></a>
+          <a href="mailto:russiffilli@gmail.com"><img src="/assests/icons8-mail-48 (1).png"> </a>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="/assests/Michael Russiffilli Resume.pdf">
+        <button class="btn btn-secondary">DOWNLOAD CV</button>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- skill section -->
+  <section class="TS" id="TS">
+    <div class="orbit">
+
+      <ul class="orbit-wrap">
+
+        <li class="orbit-center">
+          <i class="orbit-center__icon fa fa-code"></i>
+        </li>
+
+        <li>
+          <ul class="ring-0">
+            <li><i class="orbit-icon fa-brands fa-js"></i></li>
+            <li><i class="orbit-icon fa-brands fa-vuejs"></i></li>
+            <li><i class="orbit-icon fa-brands fa-ethereum"></i></li>
+            <li><i class="orbit-icon fa-brands fa-github"></i></li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="ring-1">
+            <li><i class="orbit-icon fa-brands fa-react"></i></li>
+            <li><i class="orbit-icon fa-brands fa-css3"></i></li>
+            <li><i class="orbit-icon fa-brands fa-html5"></i></li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="ring-3">
+
+            <li><i class="orbit-icon fa-brands fa-node"></i></li>
+
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+
+
+  </section>
+
+
+  <section class="services" id="projects">
+    <div class="container">
+      <h1 class="services-head">Check out some projects I worked on.</h1>
+      <p>More to come.</p>
+      <div class="card-grid">
+        <div class="card" id="TA">
+
+
+          <h2>Travel App</h2>
+
+          <button id="SBTN" onclick="window.location.href='https://average-android.github.io/GroupProjectRepo/'"> click
+            here </button>
+
+        </div>
+        <div class="card" id="INS">
+
+          <h2>Sphere spinner</h2>
+
+          <button id="SBTN" onclick="window.location.href='https:/sphere-3js.vercel.app'"> click
+            here
+          </button>
+        </div>
+        <div class="card" id="PR">
+
+          <h2>Wave Portal</h2>
+
+          <button id="SBTN" onclick="window.location.href='https://WavePortal.alldeus.repl.co'">
+            click here
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script type="module" src="/main.js"></script>
+
+</body>
+
+</html>
