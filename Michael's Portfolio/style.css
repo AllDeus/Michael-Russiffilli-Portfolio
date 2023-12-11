@@ -804,6 +804,11 @@ ul[class^="ring"] li {
 
 
 
+.fa-square-s {
+
+  background: #2c2b2b;
+  color: #020202;
+}
 
 
 
@@ -812,6 +817,10 @@ ul[class^="ring"] li {
   color: #dfcc1d;
 }
 
+.fa-python {
+  background: #fff;
+  color: #00d841;
+}
 
 
 
